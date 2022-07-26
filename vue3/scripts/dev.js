@@ -68,6 +68,7 @@ if (!inlineDeps) {
   }
 }
 
+// esbuild > build
 build({
   entryPoints: [resolve(__dirname, `../packages/${target}/src/index.ts`)],
   outfile,
